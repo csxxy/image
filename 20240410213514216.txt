@@ -1,0 +1,45 @@
+kali安装docker环境
+
+安装https协议、CA证书、dirmngr
+apt-get update
+apt-get install -y apt-transport-https ca-certificates
+apt-get install dirmngr
+
+2.添加GPG密钥并添加更新源
+curl -fsSL https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian/gpg | sudo apt-key add -
+echo 'deb https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian/ buster stable' | sudo tee /etc/apt/sources.list.d/docker.list
+
+3.系统更新以及安装docker
+apt-get update
+apt install docker-ce
+
+4.启动docker服务器
+service docker start
+
+5.安装compose
+apt install docker-compose
+
+面板地址:http://43.163.232.138:59420/R520xiaotu
+用户名:chxem6un
+密码:078822fa
+ssh
+43.163.232.138 10076 root hb0gy8Z0g3AN
+
+
+外网面板地址: http://121.41.169.128:8888/7a89eefb
+ 内网面板地址: http://172.31.29.229:8888/7a89eefb
+ username: of3qsuqn
+ password: 50344c71
+
+
+https://www.dmoe.cc/random.php
+自然
+https://img.xjh.me/random_img.php?type=bg&ctype=nature
+我的图床
+https://telegraph-image-arx.pages.dev/
+
+/album
+gitee
+8ec1ed8b1f68ddd146ef70b9543efaf8
+github token
+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
